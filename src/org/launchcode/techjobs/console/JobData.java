@@ -91,8 +91,8 @@ public class JobData {
             String the_values = row.toString().toLowerCase();
             if (the_values.contains(value.toLowerCase())) {
                 for (HashMap job : jobs) {
-                    String jobstring = job.toString().toLowerCase();
-                    if (jobstring == the_values) {
+                    String jobString = job.toString().toLowerCase();
+                    if (jobString == the_values) {
                         to_add = false;
                     }
                     else {
